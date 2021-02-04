@@ -1,4 +1,3 @@
-#from mylib import *
 import math
 
 def N_raphson(f, derivative, x0, tol):
@@ -34,8 +33,16 @@ h=0.001
 x=7
 ans = N_raphson(f,derivative,x,h)
 
-print (ans)     #Ans is the root
+print ("Root is",ans)     #Ans is the root
 #ans = hc/(\lambda)*kT
 
 b = 6.626*pow(10,-34)*3*pow(10,8)/(ans*1.381*pow(10,-23))
 print("b = the value of \lambda  is  ",b)
+
+
+
+#"C:\Users\TAMOGHNA PATTANAYAK\AppData\Local\Programs\Python\Python39\python.exe" A:/Code/Q1.py
+#Root is 4.965114236039297
+#b = the value of \lambda  is   0.0028990103282305335
+
+#Process finished with exit code 0
