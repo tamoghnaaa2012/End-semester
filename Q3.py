@@ -28,3 +28,16 @@ print("The value of pearson's r is =",ans)
 plt.figure()
 plt.plot(x,y)
 plt.show()
+
+
+"""
+the value of intercept = 2.0291025641025655
+the value of slope = -0.4747086247086251
+sigmax = 1.0724999999999991
+sigmay = 0.24902430555555544
+-0.509125
+The value of Sxx= 12.86999999999999
+The value of Sxy= -6.109500000000001
+The value of Syy= 2.9882916666666652
+The value of pearson's r is = 0.97053188449053
+"""
